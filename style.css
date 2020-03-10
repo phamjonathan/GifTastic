@@ -1,6 +1,15 @@
+html { 
+  background: url("./assets/images/beautiful.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-    font: 18px arial, sans-serif;
-    background: #eee;
+    font: 25px verdana;
+    text-align: center;
+    color: white;
   }
   
   #cars {
@@ -13,9 +22,9 @@ body {
   }
   
   form {
-    float: right;
+    float: center;
     width: 30%;
-    padding: 20px;
+    padding: 30px;
   }
   
   label {
@@ -38,7 +47,7 @@ body {
     font-size: 18px;
     color: #fff;
     cursor: pointer;
-    background: #659a98;
+    background: #000000;
     border: 0;
     border-radius: 5px;
     box-shadow: 2px 2px 3px #bbb;
@@ -46,9 +55,9 @@ body {
   
   button:hover,
   input[type="submit"]:hover {
-    background: #334e4d;
+    background: #39a4e2;
   }
   
   button.active {
-    background: #334e4d;
+    background: #39a4e2;
   }

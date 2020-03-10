@@ -1,10 +1,10 @@
 $(document).ready(function () {
 
     var cars = [
-        "bmw", "toyota", "maserati", "lamborghini", "audi",
-        "rollsroyce", "lexus", "mercedes", "saab", "tesla",
-        "buick", "honda", "jaguar", "chrysler", "ford",
-        "ferrari", "mclaren", "kia", "scion", "hyundai"
+        "BMW", "Toyota", "Maserati", "Lamborghini", "Audi",
+        "Rolls-Royce", "Lexus", "Mercedes", "Saab", "Tesla",
+        "Buick", "Honda", "Jaguar", "Chrysler", "Ford",
+        "Ferrari", "Mclaren", "Kia", "Scion", "Hyundai"
     ];
 
     function populateButtons(arrayToUse, classToAdd, areaToAddTo) {
