@@ -37,7 +37,7 @@ $(document).ready(function () {
                 var results = response.data
 
                 for (var i = 0; i < results.length; i++) {
-                    var carDiv = $("<diev class=\"car-item\">");
+                    var carDiv = $("<div class=\"car-item\">");
 
                     var rating = results[i].rating;
 
@@ -62,7 +62,7 @@ $(document).ready(function () {
             });
     });
 
-    $(document).on("click", ".animal-image", function () {
+    $(document).on("click", ".car-image", function () {
 
         var state = $(this).attr("data-state");
 
@@ -90,3 +90,13 @@ $(document).ready(function () {
 
     populateButtons(cars, "car-button", "#car-buttons");
 });
+
+            // in works of trying to remove the rating: g when user clicks on a car
+            // // Only taking action if the photo has an appropriate rating
+            // if (results[i].rating !== "r" && results[i].rating !== "pg-13") {
+            //     // Creating a div for the gif
+            //     var gifDiv = $("<div>");
+            //     gifDiv.addClass("ml-md-3")
+
+            //     // Storing the result item's rating
+            //     var rating = results[i].rating;
