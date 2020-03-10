@@ -20,7 +20,6 @@ $(document).ready(function () {
 
     }
 
-
     $(document).on("click", ".car-button", function () {
         $("#cars").empty();
         $(".car-button").removeClass("active");
