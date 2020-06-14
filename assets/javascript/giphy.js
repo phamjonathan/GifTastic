@@ -40,7 +40,7 @@ $(document).ready(function () {
 
                     var rating = results[i].rating;
 
-                    var p = $("<p>").text("Rating: " + rating);
+                    var p = $("<p>").text("rating: " + rating);
 
                     var animated = results[i].images.fixed_height.url;
                     var still = results[i].images.fixed_height_still.url;
