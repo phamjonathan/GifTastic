@@ -99,3 +99,4 @@ $(document).ready(function () {
 
             //     // Storing the result item's rating
             //     var rating = results[i].rating;
+            // TEST
